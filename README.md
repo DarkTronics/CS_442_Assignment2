@@ -1,2 +1,2 @@
 # CS_442_Assignment2
-Xinwei Guo, Qinghong Wu
+This is assignment 2 by Xinwei Guo, Qinghong Wu
