@@ -1,4 +1,4 @@
-package assignment03;
+package CS_442_Assignment2;
 
 public interface Queue<E> {
     void enqueue(E e);          // add e to the end of the queue, allow an exception to happen 
