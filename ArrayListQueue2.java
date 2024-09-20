@@ -9,22 +9,12 @@ public class ArrayListQueue2<E> extends ArrayList<E> implements Queue<E> {
 
     @Override
     public void enqueue(E e) {
-        try {
             this.add(e);
-        }
-        catch(Exception error){
-            System.out.println("Error queue is null");
-        }
     }     
 
     @Override
     public E dequeue() {
-        try {
             return this.remove(0);
-        } catch (Exception e) {
-            System.out.println("Can not dequeue because queue is null or empty");
-            throw e;
-        }
 
     }         
 

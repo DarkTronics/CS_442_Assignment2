@@ -13,22 +13,12 @@ public class ArrayListQueue1<E> implements Queue<E> {
     @Override 
     public void enqueue(E e)
     {
-        try{
-            elements.add(e);
-        }
-        catch(Exception exception){
-            System.out.println("Error queue is null");
-        }
+        elements.add(e);
     }   
     
     @Override 
     public E dequeue() {
-        try {
-            return elements.remove(0);
-        } catch (Exception e) {
-            System.out.println("Can not dequeue because queue is null or empty");
-            throw e;
-        }
+        return elements.remove(0);
     }
 
     @Override
