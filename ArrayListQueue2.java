@@ -1,6 +1,5 @@
 package CS_442_Assignment2;
 import java.util.ArrayList;
-import java.util.NoSuchElementException;
 
 public class ArrayListQueue2<E> extends ArrayList<E> implements Queue<E> {
 
