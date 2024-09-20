@@ -3,6 +3,10 @@ import java.util.ArrayList;
 
 public class ArrayListQueue2<E> extends ArrayList<E> implements Queue<E> {
 
+    public ArrayListQueue2() {
+        super();
+    }
+
     @Override
     public void enqueue(E e) {
         try {
