@@ -15,8 +15,7 @@ public class ArrayListQueue2<E> extends ArrayList<E> implements Queue<E> {
     @Override
     public E dequeue() {
             return this.remove(0);
-
-    }         
+    }      
 
     @Override
     public boolean removeQueue(E e) {
