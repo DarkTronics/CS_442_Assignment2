@@ -65,11 +65,11 @@ public class TesterMain {
         // System.out.println("enqueue 69");
         // enqueueTestArrayListQueue1(alq1,69);
         System.out.println("Did it removeQueue 69? " + alq1.removeQueue(69));
-        System.out.println("Did it removeQueue 69? " + alq1.removeQueue(69));
         System.out.println("Is queue empty? " + alq1.isEmpty());
         // System.out.println("Is queue empty? " + alq1.isEmpty());
         // System.out.println("enqueue 69");
         enqueueTestArrayListQueue1(alq1,69);
+        System.out.println("Did it removeQueue 69? " + alq1.removeQueue(69));
         System.out.println("Is queue empty? " + alq1.isEmpty());
         System.out.println("###############################################");
 
