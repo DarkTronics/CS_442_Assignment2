@@ -55,6 +55,11 @@ public class TesterMain {
         dequeueTestArrayListQueue1(alq1);
         alq1 = new ArrayListQueue1<>();
         enqueueTestArrayListQueue1(alq1,69);
+        enqueueTestArrayListQueue1(alq1,59);
+        dequeueTestArrayListQueue1(alq1);
+        dequeueTestArrayListQueue1(alq1);
+        dequeueTestArrayListQueue1(alq1);
+        System.out.println("Is alq1 empty ? " +  alq1.isEmpty());
 
         // dequeue does not catch a null or empty queue
         // System.out.println("enqueue 69");
